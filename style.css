@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://images.unsplash.com/photo-1434682772747-f16d3ea162c3?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=753&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    
+}
+.left{
+    color: white;
+    width: 200px;
+    
+}
+.mid{
+    color: white;
+    width: 500px;
+    position: absolute;
+    top: 0;
+    left: 500px;
+}
+.right{
+    color: white;
+    position:absolute ;
+    right: 1px;
+    top: 0;
+    width: 300px;
+}
+.logo{
+    width: 70px;
+    margin: 15px 20px;
+    border-radius: 10px;
+    transition: 0.50s;
+}
+.logo:hover{
+    width: 80px;
+    margin: 15px 20px;
+    border-radius: 10px;
+}
+
+nav{
+
+}
+nav ul{
+
+
+}
+nav ul li{
+list-style: none;
+float: left;
+margin-top: 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    margin-right: 35px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn{
+    margin: 18px 10px;
+    border: none;
+    outline: none;
+    padding: 7px 20px;
+    border: solid 1px #3af08f;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #3af08f;
+    transition: 0.50s;
+}
+.btn-box{
+    text-align: center;
+}
+.btn:hover{
+    color: white;
+    background: #3af08f;
+    cursor: pointer;
+}
+a:hover{
+    color: #f89c1c;
+}
+.container{
+    position: absolute;
+    top: 250px;
+    left: 350px;
+    text-align: center;
+}
+h1{
+    color: #f89c1c;
+    text-align: center;
+}
+p{
+     color: white;
+}
+.sub-btn{
+    color: rgb(228, 109, 109);
+    border: none;
+    outline: none;
+    border: solid 1px rgb(228, 109, 109);
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 15px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.50s;
+}
+.sub-btn:hover{
+    color: white;
+    background: rgb(228, 109, 109);
+}
